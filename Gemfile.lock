@@ -130,7 +130,6 @@ GEM
     mini_portile2 (2.8.7)
     minitest (5.16.3)
     msgpack (1.6.0)
-    mysql2 (0.5.4)
     net-imap (0.3.4)
       date
       net-protocol
@@ -149,6 +148,8 @@ GEM
     parser (3.3.5.0)
       ast (~> 2.4.1)
       racc
+    pg (1.5.8)
+    pg (1.5.8-x64-mingw-ucrt)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -277,6 +278,7 @@ GEM
     unicode-display_width (2.6.0)
     warden (1.2.9)
       rack (>= 2.0.9)
+    wdm (0.2.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -313,10 +315,10 @@ DEPENDENCIES
   enum_help
   jbuilder (~> 2.7)
   listen (~> 3.3)
-  mysql2
   net-imap
   net-pop
   net-smtp
+  pg
   pry-rails
   puma (~> 3.11)
   rack-mini-profiler (~> 2.0)
@@ -330,6 +332,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
+  wdm (>= 0.1.0)
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)

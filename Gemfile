@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.2'
+ruby '3.3.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.7'
@@ -66,3 +66,6 @@ end
 gem "net-smtp"
 gem "net-pop"
 gem "net-imap"
+
+gem 'tzinfo-data'
+gem 'solargraph'

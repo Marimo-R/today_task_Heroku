@@ -69,3 +69,4 @@ gem "net-pop"
 gem "net-imap"
 gem 'solargraph'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'wdm', '>= 0.1.0', group: :development

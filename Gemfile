@@ -67,7 +67,5 @@ end
 gem "net-smtp"
 gem "net-pop"
 gem "net-imap"
-
-gem 'tzinfo-data'
 gem 'solargraph'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
